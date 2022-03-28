@@ -11,7 +11,6 @@
   inputs.src-bumpy-0_2_1.ref   = "refs/tags/0.2.1";
   inputs.src-bumpy-0_2_1.owner = "treeform";
   inputs.src-bumpy-0_2_1.repo  = "bumpy";
-  inputs.src-bumpy-0_2_1.dir   = "";
   inputs.src-bumpy-0_2_1.type  = "github";
   
   inputs."vmath".owner = "nim-nix-pkgs";

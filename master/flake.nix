@@ -11,7 +11,6 @@
   inputs.src-bumpy-master.ref   = "refs/heads/master";
   inputs.src-bumpy-master.owner = "treeform";
   inputs.src-bumpy-master.repo  = "bumpy";
-  inputs.src-bumpy-master.dir   = "";
   inputs.src-bumpy-master.type  = "github";
   
   inputs."vmath".owner = "nim-nix-pkgs";
