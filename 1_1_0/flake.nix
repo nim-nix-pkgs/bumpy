@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-bumpy-1_0_0.flake = false;
-  inputs.src-bumpy-1_0_0.ref   = "refs/tags/1.0.0";
-  inputs.src-bumpy-1_0_0.owner = "treeform";
-  inputs.src-bumpy-1_0_0.repo  = "bumpy";
-  inputs.src-bumpy-1_0_0.type  = "github";
+  inputs.src-bumpy-1_1_0.flake = false;
+  inputs.src-bumpy-1_1_0.ref   = "refs/tags/1.1.0";
+  inputs.src-bumpy-1_1_0.owner = "treeform";
+  inputs.src-bumpy-1_1_0.repo  = "bumpy";
+  inputs.src-bumpy-1_1_0.type  = "github";
   
   inputs."vmath".owner = "nim-nix-pkgs";
   inputs."vmath".ref   = "master";
@@ -24,13 +24,13 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-bumpy-1_0_0"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-bumpy-1_1_0"];
     over = if builtins.pathExists ./override.nix 
            then { override = import ./override.nix; }
            else { };
   in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
-    src  = deps."src-bumpy-1_0_0";
+    src  = deps."src-bumpy-1_1_0";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   } );
