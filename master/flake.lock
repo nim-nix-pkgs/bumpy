@@ -23,8 +23,8 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
-        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
+        "path": "/nix/store/q2jrkx5a3z6yxzbfai0kxpnqki80jm3l-source",
         "type": "path"
       },
       "original": {
@@ -86,11 +86,11 @@
       },
       "locked": {
         "dir": "1_1_4",
-        "lastModified": 1650755519,
-        "narHash": "sha256-DYSNHUVSV8w7yhLUn3XPWs2AtAPddXaRYJ5OhasbpXI=",
+        "lastModified": 1651556862,
+        "narHash": "sha256-x2Gsyz+AaUIJ8/uMWAq27m6j1+Xl9WRuIK9p86PIoW8=",
         "owner": "nim-nix-pkgs",
         "repo": "vmath",
-        "rev": "17a45a236ed29c0714f373eef267de3ddc9d57b6",
+        "rev": "1fa057324384f77d8e6589abbcf368b4055e5702",
         "type": "github"
       },
       "original": {
