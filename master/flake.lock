@@ -254,11 +254,11 @@
       },
       "locked": {
         "dir": "1_2_0",
-        "lastModified": 1668755476,
-        "narHash": "sha256-SsaHzWfrHmuuvXUl1hNE+MTsiN+su+SuYBRdoKa39Jk=",
+        "lastModified": 1668776812,
+        "narHash": "sha256-JJZoqxtMEJBpLprYeWqqv0GauH0iwBmJ8MD1mT6ijTk=",
         "owner": "nim-nix-pkgs",
         "repo": "vmath",
-        "rev": "1652cf4d13bc29d9f5774e779a616fae145084db",
+        "rev": "16a0e9b034c690c83986d2846d266fd0fd9e2527",
         "type": "github"
       },
       "original": {
